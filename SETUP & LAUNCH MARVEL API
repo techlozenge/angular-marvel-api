@@ -1,0 +1,9 @@
+
+
+Backend
+    The backend is the marvel.com public API:
+        private baseUrl: string = 'http://gateway.marvel.com/v1/public/';
+    This API requires a public and private key built by the marvel.service.ts
+    After opening a new command line window enter: ng serve --open
+    If you already have the default port (4200) in use then:
+        ng serve --open --port 4201

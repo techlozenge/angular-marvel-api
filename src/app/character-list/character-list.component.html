@@ -1,0 +1,11 @@
+ <table class="table table-striped">
+   <thead>
+     <th>Name</th>
+     <th>image</th>
+   </thead>
+   <tr *ngFor="let character of potatoes">
+       <td>{{character.name | uppercase }}</td> 
+       <!--  -->
+       <td><img [src]="character.thumbnail.path + '.' + character.thumbnail.extension" width='150px' height='150px'></td>
+   </tr>
+ </table>
